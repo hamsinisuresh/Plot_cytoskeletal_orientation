@@ -9,7 +9,7 @@ Raw and processed images are stored in folders named after the experimental labe
 ![figure4ab-01](https://github.com/hamsinisuresh/Plot_cytoskeletal_orientation/assets/46113011/faa509b4-8939-448a-90e4-59aad25de986)
 
 
-For additional details of image processing and calculation of cytoskeletal orientation parameter, please refer to Supplementary Information 1 in:
+For additional details of image processing and calculation of cytoskeletal orientation parameter, please refer to Supplementary Information 1 in:\
 [1] Buskermolen & Suresh et al, **Entropic forces drive cellular contact guidance.** Biophysical Journal, 116, 1994–2008, 2019.
 
 If you find this resource useful, please consider citing us.
