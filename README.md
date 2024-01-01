@@ -9,7 +9,6 @@ Here are some myofibroblasts from fibronectin stripes of three different widths,
 
 
 For additional details of image processing and calculation of cytoskeletal orientation parameter, please refer to Supplementary Information 1 in:
-
 [1] Buskermolen & Suresh et al, **Entropic forces drive cellular contact guidance.** Biophysical Journal, 116, 1994–2008, 2019.
 
 If you find this resource useful, please consider citing us.
