@@ -10,6 +10,6 @@ SLC3 20x - 28, SLC3 40x - 20\
 SLC4 20x - 16, SLC4 40x - 34\
 SLE1 20x - 35, SLE1 40x - 26\
 SLE2 20x - 36, SLE2 40x - 21\
-Homogeneous substrate 40x - 52\
+Homogeneous substrate 40x - 52
 
 Images in each folder are names sequentially (from green-channel to greyscale, from 20x to 40x).
