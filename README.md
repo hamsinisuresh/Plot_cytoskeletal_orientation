@@ -1,2 +1,14 @@
 # Plot_cytoskeletal_orientation
-Process actin-stained images to visualize local orientation of cytoskeleton
+The cytoskeletal orientational order parameter provides a measure of alignment of stress-fibres in a cell. In Buskermolen & Suresh et al [1], we we seeded myofibroblasts on substrates micropatterned with stripes of fibronectin, and observed the alignment of cells and their actin cytoskeleton (i.e. contact guidance) with varying stripe widths. Here, we provide the raw data and scripts used to process actin-stained images to visualize local orientation of cytoskeleton.
+
+Briefly, we highlight the actin fibres in the green channel of the immunofluorescence images by converting to grayscale and sharpening, followed by edge detection (by convolution with a Laplacian of Gaussian (LoG) kernel) and finally brightness adjustment to highlight the low intensity fibres (panel (a) in the schematic figure below). Panel (b) shows a myofibroblast on the homogeneous substrate (i.e. substrate completely covered with fibronectin (or) infinite-width substrate) in which the actin stress-fibres are detected from “fibreness” estimation, and coloured by their respective orientations with respect to the stripe direction, and by the rotationally-invariant orientation measure used to compute the cytoskeletal orientation parameter.
+![figure_s1-01](https://github.com/hamsinisuresh/Plot_cytoskeletal_orientation/assets/46113011/44951e16-7243-4b26-920c-56766510db74)
+
+Here are some myofibroblasts from fibronectin stripes of three different widths, colored by the same rotationally-invariant orientation measure.
+![figure4ab-01](https://github.com/hamsinisuresh/Plot_cytoskeletal_orientation/assets/46113011/faa509b4-8939-448a-90e4-59aad25de986)
+
+
+For additional details of image processing and calculation of cytoskeletal orientation parameter, please refer to Supplementary Information 1 in:
+[1] Buskermolen & Suresh et al, **Entropic forces drive cellular contact guidance.** Biophysical Journal, 116, 1994–2008, 2019.
+
+If you find this resource useful, please consider citing us.
